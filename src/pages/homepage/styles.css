@@ -1,0 +1,160 @@
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    background-size: 2350PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+
+
+    padding: 19px 10%;
+    transition: 0.2s;
+    box-shadow: -3px -3px 7px #ffffff73,
+                  2px 2px 5px rgba(94, 104, 121, 0.288);
+  }
+
+.logo{
+    position:absolute;
+    left: 220px;
+    color: black;
+}
+
+.logo .fa-user-astronaut{
+
+    font-size: 24px;
+}
+
+
+.webname{
+    position: relative;
+    top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid black;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.webname span{
+    
+}
+
+
+.loadingmsg{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.homepage .itembox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.copyright{
+    position: relative;
+    margin-top: 625px;
+  }
+
+
+  .social{
+    bottom: 50px;
+    position: fixed;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+}
+
+  .icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 8px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+   text-decoration: none;
+  }
+
+  .icon:hover{
+    width: 180px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+   text-decoration: none;
+}
+
+.icon  span a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  .icon:hover i{
+      color: #fff;
+  }
+  .icon .fa-facebook-f{
+      color: #1A6ED8;
+  }
+  .fb:hover{
+      background: #1A6ED8;
+  }
+  .icon .fa-instagram{
+      color: #5851DB;
+  }
+  .ig:hover{
+    background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', endcolorstr='#bc1888',GradientType=1);
+   text-decoration: none;
+  }
+  .icon .fa-linkedin-in{
+      color: #0077B5;
+  }
+  .lnk:hover{
+      background: #0077B5;
+      text-decoration: none;
+  }
+  .icon .fa-github{
+      color: #000;
+       text-decoration: none;
+  }
+  .git:hover{
+      background: #000;
+     text-decoration: none;
+  }
+  .icon .fa-youtube{
+      color: #FE0000;
+      text-decoration: none;
+  }
+  .yt:hover{
+      background: #FE0000;
+     text-decoration: none;
+  }
+
+
+ 

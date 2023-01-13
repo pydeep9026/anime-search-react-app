@@ -1,0 +1,23 @@
+.Search{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.Search input{
+    padding: 6px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.Search button{
+    background-color: darkcyan;
+    padding: 10px 50px;
+    font-size: 20px;
+    box-shadow: 0 1px 3px 0 rgb(0  0 0 / 2%) ;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
