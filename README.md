@@ -3,7 +3,7 @@
 this is a anime search react website , it works by simply fetching anime data from jikan api.
 
 
-below attached is the site preview.
+below attached is the site preview
 
 LINK TO THE SITE: https://anime-search-9026.netlify.app/
 
